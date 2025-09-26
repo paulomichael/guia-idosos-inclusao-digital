@@ -34,6 +34,9 @@ Em vez de criar um app complexo, optamos por algo mais humano:
 👉 **Acesse o guia diretamente no celular:**  
 [https://paulomichael.github.io/guia-idosos-inclusao-digital](https://seunome.github.io/guia-idosos-inclusao-digital)
 
+<img width="300" height="300" alt="qr-code" src="https://github.com/user-attachments/assets/497d0d35-1336-4b6d-9986-78bba2dc03a1" />
+
+
 ✅ Funciona **sem internet** após abrir a primeira vez  
 ✅ Não pede login, senha ou cadastro  
 ✅ Funciona em qualquer navegador (Chrome, Firefox, Safari)  
