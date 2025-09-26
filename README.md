@@ -6,17 +6,15 @@
 
 ## 📌 Sobre o Projeto
 
-Este projeto foi desenvolvido por **[Seu Nome]**, aluno(a) do CST em Análise e Desenvolvimento de Sistemas da UNINTER, como parte da **Atividade Extensionista I: Tecnologia Aplicada à Inclusão Digital – Levantamento**.
+Este projeto foi desenvolvido  como parte da **Atividade Extensionista I: Tecnologia Aplicada à Inclusão Digital – Levantamento**.
 
-Com base em uma **entrevista real com Taia, 68 anos**, integrante de um grupo de atividades da terceira idade em Ijuí/RS, identificamos três grandes dificuldades:
+Com base em uma entrevista com uma integrante de um grupo de atividades da terceira idade, identificamos três grandes dificuldades:
 - Acessar o **Gov.br** para consultar benefícios (sem login)
 - Receber **PIX** pelo celular
 - Agendar **consultas médicas** por WhatsApp
 
 Em vez de criar um app complexo, optamos por algo mais humano:  
 > **Um guia digital simples, acessível e offline — feito com HTML, CSS e JavaScript.**
-
-Não foi possível aplicar o projeto na prática devido ao prazo, mas o que foi feito é real, funcional e pode ser usado **hoje por qualquer idoso com um celular**.
 
 ---
 
@@ -34,7 +32,7 @@ Não foi possível aplicar o projeto na prática devido ao prazo, mas o que foi 
 ## 🖥️ Como Acessar
 
 👉 **Acesse o guia diretamente no celular:**  
-[https://seunome.github.io/guia-idosos-inclusao-digital](https://seunome.github.io/guia-idosos-inclusao-digital)
+[https://paulomichael.github.io/guia-idosos-inclusao-digital](https://seunome.github.io/guia-idosos-inclusao-digital)
 
 ✅ Funciona **sem internet** após abrir a primeira vez  
 ✅ Não pede login, senha ou cadastro  
@@ -56,17 +54,3 @@ O guia tem 4 páginas simples:
 
 > Todos os passos são mostrados com **imagens ilustrativas** e **texto em fonte grande** — seguindo os Princípios do Desenho Universal.
 
----
-
-## 💡 Por que esse projeto importa?
-
-> **“Não precisamos de mais tecnologia. Precisamos de mais humanidade.”**
-
-Taia não precisava de um app.  
-Precisava de alguém que **parasse, ouvisse e explicasse com calma**.
-
-Este guia:
-- Não julga  
-- Não pressiona  
-- Não exige conhecimento técnico  
-- Não precisa
