@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Como receber PIX?</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Como receber PIX?</h1>
+      <p>Receba dinheiro do seu filho — sem precisar ir ao banco!</p>
+      <button onclick="goHome()" class="btn back">← Voltar</button>
+    </header>
+
+    <main>
+      <div class="step" id="step1">
+        <h3>Passo 1: Peça ao filho para enviar PIX pelo seu número de telefone</h3>
+        <p>Diga: “Filho, me envie um PIX pelo meu número de celular: (55) 99999-9999”</p>
+        <img src="https://via.placeholder.com/300x150?text=Mensagem+para+filho" alt="Mensagem para filho">
+      </div>
+
+      <div class="step" id="step2" style="display:none;">
+        <h3>Passo 2: Aguarde a notificação no app do banco</h3>
+        <p>Quando o PIX chegar, seu celular vai tocar e aparecer uma notificação:</p>
+        <img src="https://via.placeholder.com/300x150?text=Notificação+PIX+Caixa+Tem" alt="Notificação PIX">
+      </div>
+
+      <div class="step" id="step3" style="display:none;">
+        <h3>Passo 3: Clique na notificação e veja quem enviou</h3>
+        <p>Se aparecer: “Remetente: João Silva” — é seguro!</p>
+        <img src="https://via.placeholder.com/300x150?text=Detalhes+PIX+João+Silva" alt="Detalhes do PIX">
+      </div>
+
+      <div class="step" id="step4" style="display:none;">
+        <h3>✅ Passo 4: Dinheiro já está na sua conta!</h3>
+        <p>Seu saldo aumenta automaticamente. NÃO PRECISA DE SENHA.</p>
+        <p>Se quiser, peça para o filho mandar um recado: “Mãe, te mandei R$100 de presente!”</p>
+      </div>
+
+      <div class="step" id="step5" style="display:none;">
+        <h3>⚠️ CUIDADO COM GOLPES!</h3>
+        <p>Se alguém mandar um link assim:</p>
+        <p><strong>“Você ganhou R$500! Clique aqui: bit.ly/ganhe500”</strong></p>
+        <p>→ NÃO CLIQUE!</p>
+        <p>→ APAGUE!</p>
+        <p>→ LIGUE PARA SEU FILHO OU NETO!</p>
+      </div>
+
+      <div class="buttons">
+        <button onclick="showStep('step1')" class="btn">Iniciar</button>
+        <button onclick="nextStep()" class="btn next">Próximo</button>
+      </div>
+
+      <div class="footer">
+        <p>Este guia foi feito com base na experiência real de Maria, 72 anos, de Ijuí/RS.</p>
+      </div>
+    </main>
+
+    <script src="assets/script.js"></script>
+  </div>
+</body>
+</html>

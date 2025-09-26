@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Como acessar o Gov.br?</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Como acessar o Gov.br?</h1>
+      <p>Para consultar benefícios — SEM LOGIN!</p>
+      <button onclick="goHome()" class="btn back">← Voltar</button>
+    </header>
+
+    <main>
+      <div class="step" id="step1">
+        <h3>Passo 1: Abra o navegador</h3>
+        <p>Clique no ícone do navegador (Chrome, Firefox, etc.) no seu celular.</p>
+        <img src="https://via.placeholder.com/300x150?text=Ícone+Navegador" alt="Ícone do navegador">
+      </div>
+
+      <div class="step" id="step2" style="display:none;">
+        <h3>Passo 2: Digite gov.br</h3>
+        <p>Na barra de endereço, digite exatamente: <strong>gov.br</strong></p>
+        <img src="https://via.placeholder.com/300x150?text=Barra+de+endereço+gov.br" alt="Barra de endereço gov.br">
+      </div>
+
+      <div class="step" id="step3" style="display:none;">
+        <h3>Passo 3: Clique em “Serviços” → “Benefícios” → “INSS”</h3>
+        <p>Não precisa de senha. Clique em “Serviços”, depois “Benefícios”, depois “INSS”.</p>
+        <img src="https://via.placeholder.com/300x150?text=Tela+Gov.br+com+menu+Serviços" alt="Menu Gov.br">
+      </div>
+
+      <div class="step" id="step4" style="display:none;">
+        <h3>✅ Passo 4: Veja seu benefício — SEM LOGIN!</h3>
+        <p>Seu nome, valor e situação aparecem automaticamente. NÃO PRECISA DE SENHA!</p>
+        <img src="https://via.placeholder.com/300x150?text=Tela+INSS+com+benefício" alt="Tela do INSS com benefício">
+      </div>
+
+      <div class="step" id="step5" style="display:none;">
+        <h3>🎉 Parabéns!</h3>
+        <p>Você acessou seu benefício sem ajuda!</p>
+        <p><strong>Guarde este guia:</strong> Salve no favoritos do navegador como “Gov.br - Meu Benefício”</p>
+        <button onclick="showStep('step1')" class="btn">Reiniciar</button>
+      </div>
+
+      <div class="buttons">
+        <button onclick="showStep('step1')" class="btn">Iniciar</button>
+        <button onclick="nextStep()" class="btn next">Próximo</button>
+      </div>
+
+      <div class="warning">
+        ⚠️ Nunca clique em links que mandam “entrar com CPF” ou “atualizar cadastro” por WhatsApp. Isso é golpe!
+      </div>
+    </main>
+
+    <script src="assets/script.js"></script>
+  </div>
+</body>
+</html>

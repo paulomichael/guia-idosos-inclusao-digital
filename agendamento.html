@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Como agendar consulta por WhatsApp?</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Como agendar consulta por WhatsApp?</h1>
+      <p>Evite filas e espera — ligue e agende pelo app!</p>
+      <button onclick="goHome()" class="btn back">← Voltar</button>
+    </header>
+
+    <main>
+      <div class="step" id="step1">
+        <h3>Passo 1: Ligue para o posto de saúde</h3>
+        <p>Use o telefone fixo ou celular. Diga:</p>
+        <blockquote>"Olá, gostaria de agendar uma consulta. Posso fazer isso pelo WhatsApp?"</p>
+        <p>Eles vão te dizer: “Sim! Nos envie uma mensagem.”</p>
+      </div>
+
+      <div class="step" id="step2" style="display:none;">
+        <h3>Passo 2: Abra o WhatsApp e envie uma mensagem</h3>
+        <p>Abra o app, vá para o número do posto e envie:</p>
+        <pre>Olá! Quero agendar uma consulta para o dia 15/06. Meu nome é Maria Silva, CPF 123.456.789-00.</pre>
+        <img src="https://via.placeholder.com/300x150?text=Mensagem+no+WhatsApp" alt="Mensagem no WhatsApp">
+      </div>
+
+      <div class="step" id="step3" style="display:none;">
+        <h3>Passo 3: Eles vão te mandar um link</h3>
+        <p>Em poucos minutos, você receberá uma mensagem com um link como este:</p>
+        <p><strong>https://forms.gle/AgendamentoSUS</strong></p>
+        <p>Clique nele — abre como uma página no navegador.</p>
+      </div>
+
+      <div class="step" id="step4" style="display:none;">
+        <h3>Passo 4: Preencha o formulário</h3>
+        <p>É só digitar:</p>
+        <ul>
+          <li>Seu nome</li>
+          <li>Seu CPF</li>
+          <li>Data e horário desejado</li>
+        </ul>
+        <p>Depois clique em “Enviar”.</p>
+        <img src="https://via.placeholder.com/300x150?text=Formulário+Google" alt="Formulário Google">
+      </div>
+
+      <div class="step" id="step5" style="display:none;">
+        <h3>✅ Passo 5: Receba o recibo por WhatsApp!</h3>
+        <p>Em poucos minutos, você receberá:</p>
+        <blockquote>“Sua consulta foi marcada para 15/06 às 10h no posto central. Confirme com o número (55) 9999-9999.”</p>
+        <p>Guarde essa mensagem!</p>
+      </div>
+
+      <div class="buttons">
+        <button onclick="showStep('step1')" class="btn">Iniciar</button>
+        <button onclick="nextStep()" class="btn next">Próximo</button>
+      </div>
+
+      <div class="warning">
+        ⚠️ NUNCA envie seu CPF ou dados por mensagem de pessoa desconhecida!
+      </div>
+    </main>
+
+    <script src="assets/script.js"></script>
+  </div>
+</body>
+</html>
